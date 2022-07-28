@@ -2,8 +2,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(81, 81, 81);
+    background-color: #3b3a3a;
     height: 100px;
+    width: 1160px;
+}
+
+main {
+    width: 1160px;
 }
 
 img:nth-of-type(1) {
@@ -12,8 +17,8 @@ img:nth-of-type(1) {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    flex-basis: 68.3%;
+    justify-content: space-evenly;
+    width: 760px;
     color: white;
     font-size: large;
 
@@ -55,19 +60,35 @@ section p:nth-of-type(1) {
     width: 450px;
     margin-left: 30px;
     font-size: larger;
-    align-items: flex-start;
     overflow-y: scroll;
     text-align: justify;
+    margin-top: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 section button {
-    width: 100px;
     margin-left: 30px;
     align-items: flex-end;
+    font-size: large;
 
+}
+
+button {
+    background-color: #3b3a3a;
+    color: aliceblue;
+    width: fit-content;
 }
 
 footer {
     height: 100px;
-    background-color: gray;
+    background-color: #3b3a3a;
+    width: 1160px;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-top: 0;
 }
